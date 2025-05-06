@@ -1,0 +1,12 @@
+transformers>=4.35.1
+datasets[audio]>=2.14.7
+accelerate>=0.24.1
+matplotlib
+wandb
+tensorboard
+Cython
+scipy
+huggingface_hub
+# Add any specific CUDA version of torch if needed for your cloud environment
+# e.g., torch --index-url https://download.pytorch.org/whl/cu118
+torch 

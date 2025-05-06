@@ -1,0 +1,31 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data and Models (Potentially Large)
+data/
+models/
+
+# Build artifacts
+monotonic_align/*.so
+monotonic_align/*.c
+monotonic_align/build/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Environment variables
+.env 
