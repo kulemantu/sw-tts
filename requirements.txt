@@ -10,3 +10,4 @@ huggingface_hub
 # Add any specific CUDA version of torch if needed for your cloud environment
 # e.g., torch --index-url https://download.pytorch.org/whl/cu118
 torch 
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
